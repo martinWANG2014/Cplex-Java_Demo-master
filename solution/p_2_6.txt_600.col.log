@@ -1,0 +1,43 @@
+CPXPARAM_TimeLimit                               600
+CPXPARAM_WorkMem                                 4096
+CPXPARAM_Threads                                 1
+Found incumbent of value 0,000000 after 0,00 sec. (0,00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 3 rows and 32 columns.
+MIP Presolve modified 1 coefficients.
+Reduced MIP has 11 rows, 24 columns, and 45 nonzeros.
+Reduced MIP has 24 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,10 ticks)
+Probing time = 0,00 sec. (0,01 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 5 rows and 10 columns.
+Reduced MIP has 6 rows, 14 columns, and 27 nonzeros.
+Reduced MIP has 14 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,02 ticks)
+Probing time = 0,00 sec. (0,00 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 6 rows, 14 columns, and 27 nonzeros.
+Reduced MIP has 14 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,02 ticks)
+Probing time = 0,00 sec. (0,00 ticks)
+Clique table members: 5.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0,00 sec. (0,01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           66,0000      233,0000           253,03%
+      0     0      140,8947     2       66,0000      140,8947        6  113,48%
+*     0+    0                          139,0000      140,8947             1,36%
+      0     0        cutoff            139,0000                      6     --- 
+Elapsed time = 0,00 sec. (1,24 ticks, tree = 0,01 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0,00 sec. (1,24 ticks)
+Sequential b&c:
+  Real time             =    0,00 sec. (0,00 ticks)
+                          ------------
+Total (root+branch&cut) =    0,00 sec. (1,24 ticks)

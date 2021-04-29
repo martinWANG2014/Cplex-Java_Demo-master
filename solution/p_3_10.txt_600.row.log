@@ -1,0 +1,43 @@
+CPXPARAM_TimeLimit                               600
+CPXPARAM_WorkMem                                 4096
+CPXPARAM_Threads                                 1
+Found incumbent of value 0,000000 after 0,00 sec. (0,01 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 9 rows and 40 columns.
+MIP Presolve modified 5 coefficients.
+Reduced MIP has 24 rows, 59 columns, and 109 nonzeros.
+Reduced MIP has 59 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,26 ticks)
+Probing time = 0,00 sec. (0,04 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 15 rows and 35 columns.
+Reduced MIP has 9 rows, 24 columns, and 46 nonzeros.
+Reduced MIP has 24 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,05 ticks)
+Probing time = 0,00 sec. (0,02 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 9 rows, 24 columns, and 46 nonzeros.
+Reduced MIP has 24 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,05 ticks)
+Probing time = 0,00 sec. (0,02 ticks)
+Clique table members: 15.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0,00 sec. (0,02 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          213,0000      552,0000           159,15%
+      0     0      286,6000     1      213,0000      286,6000        2   34,55%
+*     0+    0                          285,0000      286,6000             0,56%
+      0     0        cutoff            285,0000                      2     --- 
+Elapsed time = 0,01 sec. (2,65 ticks, tree = 0,01 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0,01 sec. (2,65 ticks)
+Sequential b&c:
+  Real time             =    0,00 sec. (0,00 ticks)
+                          ------------
+Total (root+branch&cut) =    0,01 sec. (2,65 ticks)

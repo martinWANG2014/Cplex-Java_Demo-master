@@ -1,0 +1,12 @@
+Number of knapsacks:
+2
+Number of items:
+3
+Capacity of knapsack:
+78 59 
+Number of each type item:
+5 2 4 
+Value of each item of each type:
+2 4 19 10 12 7 16 10 1 6 9 
+Weight of each item of each type packed in each knapsack:
+4 15 7 25 38 23 18 34 23 35 26 32 16 9 9 6 40 29 21 32 27 19 
