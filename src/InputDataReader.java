@@ -534,7 +534,7 @@ public class InputDataReader {
                     array[i] = new double[_array[i].length][];
                     for (int j = 0; j < _array[i].length; j++) {
                         array[i][j] = new double[_array[i][j].length];
-                        System.arraycopy(_array[i][j], 0, array[i][j], 0, _num);
+                        System.arraycopy(_array[i][j], 0, array[i][j], 0, _array[i][j].length);
                     }
                 }
 
@@ -760,7 +760,7 @@ public class InputDataReader {
                     array[i] = new int[_array[i].length][];
                     for (int j = 0; j < _array[i].length; j++) {
                         array[i][j] = new int[_array[i][j].length];
-                        System.arraycopy(_array[i][j], 0, array[i][j], 0, _num);
+                        System.arraycopy(_array[i][j], 0, array[i][j], 0, _array[i][j].length);
                     }
                 }
 
